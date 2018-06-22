@@ -1,0 +1,200 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(3,750px);
+    grid-template-rows: 75px 400px 150px 400px 400px 400px 150px 300px 300px 300px 150px 300px 150px 300px 150px;
+    /*max-width: 900px;*/
+    margin: 0rem auto;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    background-color: dimgrey;
+    grid-column: 1/span 2;
+    grid-row: 1;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+    .logo p {
+        margin-left: 4px;
+        font-size: 1.5vw;
+        font-family: 'Open Sans', sans-serif;
+    }
+.navBar {
+    background-color: dimgrey;
+    grid-column: 2/span 2;
+    grid-row: 1;
+    color: white;
+}
+    .navBar ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        width: inherit;
+        list-style: none;
+        font-size: 1.5vw;
+        font-family: 'Open Sans', sans-serif;
+    }
+.villa {
+    background-color: midnightblue;
+    grid-column: 1/span 2;
+    grid-row: 2;
+    color: white;
+    background-image: url('tuscany-villas resize.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    
+}
+    .villa p {
+        font-family: 'Slabo 27px', serif;
+        font-size: 3vw;
+        display:flex;
+        flex-direction:row-reverse;
+        align-content:center;
+        justify-content:center;
+        align-self:center;
+        height:inherit;
+        width: inherit;
+    }
+.map {
+    background-color: midnightblue;
+    grid-column: 3;
+    grid-row: 2;
+    color: white;
+    background-image: url('Map 639x400.jpg');
+    width: 100%;
+    
+}
+.locations{
+    background-color: darkgrey;
+    grid-row:3;
+    grid-column:1/ span 3
+}
+.locationsOne{
+    background-color: royalblue;
+    color:white;
+    grid-row:4;
+    grid-column:1/ span 3
+}
+.locationsOne {
+    background-color: royalblue;
+    color: white;
+    grid-row: 4;
+    grid-column: 1/ span 3
+}
+.locationsTwo {
+    background-color: royalblue;
+    color: white;
+    grid-row: 5;
+    grid-column: 1/ span 3
+}
+.locationsThree {
+    background-color: royalblue;
+    color: white;
+    grid-row: 6;
+    grid-column: 1/ span 3
+}
+.ammenties{
+    background-color:dimgrey;
+    color: white;
+    grid-row:7;
+    grid-column: 1/ span 3;
+    
+}
+.recept {
+    grid-column: 1;
+    grid-row: 8;
+    background-color: black;
+    color: yellow;
+}
+.avail {
+    grid-column: 2;
+    grid-row: 8;
+    background-color: yellow;
+}
+.relax {
+    grid-column: 3;
+    grid-row: 8;
+    background-color: black;
+    color:yellow
+}
+.setApart {
+    grid-column: 1;
+    grid-row: 9;
+    background-color: black;
+    color: yellow
+}
+
+
+.likeHome {
+    grid-column: 2;
+    grid-row: 9;
+    background-color: yellow;
+}
+
+.staff {
+    grid-column: 3;
+    grid-row: 9;
+    background-color: black;
+    color: yellow
+}
+
+.views {
+    grid-column: 1;
+    grid-row: 10;
+    background-color: black;
+    color: yellow
+}
+
+
+.book {
+    grid-column: 2;
+    grid-row: 10;
+    background-color: yellow;
+}
+
+.dine {
+    grid-column: 3;
+    grid-row: 10;
+    background-color: black;
+    color: yellow
+}
+.reviews {
+    background-color: dimgrey;
+    grid-column: 1/span 3;
+    grid-row: 11;
+    color: white;
+}
+.carousel {
+    background-color:darkslategrey;
+    grid-column: 1/span 3;
+    grid-row: 12;
+    color: white;
+}
+.contact {
+    background-color: dimgrey;
+    grid-column: 1/span 3;
+    grid-row: 13;
+    color: white;
+}
+.cSubmit {
+    background-color: darkslategray;
+    grid-column: 1/span 3;
+    grid-row: 14;
+    color: white
+}
+.sig {
+    background-color: dimgrey;
+    grid-column: 1/span 3;
+    grid-row: 15;
+    color: white
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
